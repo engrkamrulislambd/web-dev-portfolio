@@ -40,6 +40,10 @@ nav .nav-items{
     font-size: 20px;
     font-weight: 300;
 }
+.nav-items li:hover a{
+    color: #181818;
+    transition: all .3s;
+}
 .btn-primary{
     background-color: #FD6E0A;
     padding: 18px 35px;
@@ -47,6 +51,10 @@ nav .nav-items{
     font-size: 20px;
     border: none;
     border-radius: 5px;
+}
+.btn-primary:hover{
+    box-shadow: 5px 5px 7px #f8a648e7;
+    transition: all .3s;
 }
 
 /* Banner Section */
@@ -85,4 +93,9 @@ nav .nav-items{
     font-size: 18px;
     border-radius: 5px;
     margin-left: 20px;
+}
+.btn-contact:hover{
+    background-color: #FD6E0A;
+    color: white;
+    transition: all .5s;
 }
