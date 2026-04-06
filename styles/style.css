@@ -122,6 +122,7 @@ nav .nav-items{
     font-size: 18px;
     color: #757575;
     text-align: center;
+    line-height: 1.5;
 }
 .about-info{
     display: flex;
@@ -134,5 +135,21 @@ nav .nav-items{
 }
 .about-info h4{
     color:#474747;
+    font-weight: 700;
+}
+
+/* What I do */
+.what-do{
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 200px;
+    text-align: center;
+    color:#757575;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.what-do h2{
+    font-size: 35px;
+    color: #181818;
     font-weight: 700;
 }
